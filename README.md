@@ -23,7 +23,7 @@ To run the program on a VM will need to install:
 *[VirtualBox](https://www.virtualbox.org/wiki/Downloads) - the software that actually runs the virtual machine. 
 Install the VirtualBox platform package for your operating system. You do not need the extension pack or the SDK.
 
-## Project contents
+## Files
 This project consists of the following files:
 
 * `reports.py` - The Python program that connects to the database, executes and saves the SQL query results to file named `reports.txt`
