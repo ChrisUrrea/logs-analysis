@@ -49,7 +49,7 @@ This will cause Vagrant to download the Linux operating system and install it.
 
 Note, the first time this step it will take some time, as Vagrant will download the OS of the VM.
 
-4. When vagrant up is finished running, run:
+4. When `vagrant up` is completed, run:
 ```bash
 vagrant ssh
 ```
@@ -79,7 +79,7 @@ Where `-db` argument is the name of the database to be queried.
 The `reports.py` output should now be displayed within same directory in `reports.txt`.
 
 9. Exit and close  VM
-After completing program, use `Ctrl+D` to exit VM and shut it down:
+after completing the program, use `Ctrl+D` to exit VM and shut it down:
 ```bash
 vagrant halt
 ```
