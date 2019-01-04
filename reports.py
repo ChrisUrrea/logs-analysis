@@ -50,10 +50,10 @@ def exec_query(cursor, query):
     return results
 
 
-def write_txt(query_path, query_output, query_descriptor, end_tag):
-    "Write `query_results` headed by `query_descriptor` to report txt file"
+def write_txt(file_name, query_output, query_descriptor, end_tag):
+    "Write `query_results` headed by `query_descriptor` in `file_name` txt file"
 
-    with open(query_path, "a+") as file:
+    with open(file_name, "a+") as file:
         file.write(query_descriptor)
         file.write('\n')
         for row in query_output:
