@@ -19,8 +19,10 @@ The following software is required:
 To avoid dependency issues, it is recommended to use a Vagrant managed virtual machine (VM). 
 
 To run the program on a VM will need to install:
-*[Vagrant](https://www.vagrantup.com/downloads.html) - the software that configures the VM and lets you share files between your host computer and the VM's filesystem
-*[VirtualBox](https://www.virtualbox.org/wiki/Downloads) - the software that actually runs the virtual machine. 
+
+* [Vagrant](https://www.vagrantup.com/downloads.html) - the software that configures the VM and lets you share files between your host computer and the VM's filesystem
+
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - the software that actually runs the virtual machine. 
 Install the VirtualBox platform package for your operating system. You do not need the extension pack or the SDK.
 
 ## Files
