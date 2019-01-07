@@ -52,7 +52,7 @@ def exec_query(cursor, query):
 
 
 def write_txt(file_name, query_output, query_descriptor, end_tag):
-    "Write `query_results` headed by `query_descriptor` in `file_name` txt file"
+    "Write `query_output`with `query_descriptor` to `file_name`.txt"
 
     with open(file_name, "a+") as file:
         file.write(query_descriptor)
@@ -75,7 +75,8 @@ if __name__ == "__main__":
     kwargs = vars(args)
 
     if not kwargs.get('output_path', None):
-        kwargs['output_path'] = f'{os.path.basename(__file__).split(".")[0]}.txt'
+        out_file = os.path.basename(__file__).split(".")[0]
+        kwargs['output_path'] = f'{out_file}.txt'
 
     cursor, database = connect_cursor(kwargs['db_name'])
 
